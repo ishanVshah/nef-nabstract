@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  nef-nabstract:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: NEF
+      catalog.cattle.io/release-name: nef-nabstract
+      charts.openshift.io/name: nef-nabstract
+    apiVersion: v2
+    appVersion: 2.5.7
+    created: "2023-09-11T11:08:28.398121068-04:00"
+    description: NABSTRACT NEF deployment Helm chart
+    digest: 601fc876d5e37b806240346231b92b85bb3b6efc1d91ace14e9a2fb372108dd0
+    kubeVersion: '>= 1.25.0'
+    name: nef-nabstract
+    type: application
+    urls:
+    - https://ishanVshah.github.io/nef-nasbtract/nef-nabstract-2.0.0.tgz
+    version: 2.0.0
+generated: "2023-09-11T11:08:28.397317382-04:00"
